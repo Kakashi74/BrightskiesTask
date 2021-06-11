@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		72A0E2F8A4F7D9E434CE7F23 /* Pods_BrightskiesTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7F75B734613E370C84AFEB /* Pods_BrightskiesTask.framework */; };
 		B2DE0A7D3693E6E59C2A2581 /* Pods_BrightskiesTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED95485E26E34049A952095 /* Pods_BrightskiesTaskTests.framework */; };
+		E23EE025267428CF00C590D5 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23EE024267428CF00C590D5 /* Urls.swift */; };
 		E24E8500266EDFEB00BA5954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E84FF266EDFEB00BA5954 /* AppDelegate.swift */; };
 		E24E8507266EDFEB00BA5954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24E8505266EDFEB00BA5954 /* Main.storyboard */; };
 		E24E850A266EDFEB00BA5954 /* BrightskiesTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E24E8508266EDFEB00BA5954 /* BrightskiesTask.xcdatamodeld */; };
@@ -55,6 +56,7 @@
 		3ED95485E26E34049A952095 /* Pods_BrightskiesTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightskiesTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7F75B734613E370C84AFEB /* Pods_BrightskiesTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightskiesTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC2AE5E43E035C57DF32E82 /* Pods-BrightskiesTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightskiesTask.debug.xcconfig"; path = "Target Support Files/Pods-BrightskiesTask/Pods-BrightskiesTask.debug.xcconfig"; sourceTree = "<group>"; };
+		E23EE024267428CF00C590D5 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		E24E84FC266EDFEB00BA5954 /* BrightskiesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightskiesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24E84FF266EDFEB00BA5954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24E8506266EDFEB00BA5954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E23EE023267428CF00C590D5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E23EE024267428CF00C590D5 /* Urls.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		E24E84F3266EDFEB00BA5954 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 			children = (
 				E2CEA2C7266EE0C7004FAB96 /* Core */,
 				E2CEA2BE266EE0BD004FAB96 /* Base */,
+				E23EE023267428CF00C590D5 /* Constants */,
 				E2CEA2B7266EE0BD004FAB96 /* Network */,
 				E2CEA2BA266EE0BD004FAB96 /* Utilites */,
 				E2CEA2B2266EE0AE004FAB96 /* Toaster */,
@@ -606,6 +617,7 @@
 				E2CEA2B5266EE0AE004FAB96 /* AMToaster.swift in Sources */,
 				E2CEA2D7266EE4BA004FAB96 /* Validator.swift in Sources */,
 				E2BDE7F826700F0300678210 /* DetailsVC.swift in Sources */,
+				E23EE025267428CF00C590D5 /* Urls.swift in Sources */,
 				E2CEA2ED266EEE9B004FAB96 /* SettingCell.swift in Sources */,
 				E2CEA2D3266EE1DD004FAB96 /* LoginPresenter.swift in Sources */,
 				E2CEA2D1266EE168004FAB96 /* LoginVC.swift in Sources */,
