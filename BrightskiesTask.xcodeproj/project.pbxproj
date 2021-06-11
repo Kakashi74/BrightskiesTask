@@ -3,18 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72A0E2F8A4F7D9E434CE7F23 /* Pods_BrightskiesTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7F75B734613E370C84AFEB /* Pods_BrightskiesTask.framework */; };
+		B2DE0A7D3693E6E59C2A2581 /* Pods_BrightskiesTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED95485E26E34049A952095 /* Pods_BrightskiesTaskTests.framework */; };
 		E24E8500266EDFEB00BA5954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E84FF266EDFEB00BA5954 /* AppDelegate.swift */; };
-		E24E8502266EDFEB00BA5954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E8501266EDFEB00BA5954 /* SceneDelegate.swift */; };
-		E24E8504266EDFEB00BA5954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E8503266EDFEB00BA5954 /* ViewController.swift */; };
 		E24E8507266EDFEB00BA5954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24E8505266EDFEB00BA5954 /* Main.storyboard */; };
 		E24E850A266EDFEB00BA5954 /* BrightskiesTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E24E8508266EDFEB00BA5954 /* BrightskiesTask.xcdatamodeld */; };
 		E24E850C266EDFED00BA5954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24E850B266EDFED00BA5954 /* Assets.xcassets */; };
 		E24E850F266EDFED00BA5954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24E850D266EDFED00BA5954 /* LaunchScreen.storyboard */; };
 		E24E851A266EDFED00BA5954 /* BrightskiesTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E8519266EDFED00BA5954 /* BrightskiesTaskTests.swift */; };
+		E28D39DC2673A33A00EB56E5 /* DataBaseManegar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D39DB2673A33A00EB56E5 /* DataBaseManegar.swift */; };
+		E28D39DE2673AAA400EB56E5 /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D39DD2673AAA400EB56E5 /* TabVC.swift */; };
+		E2BDE7F826700F0300678210 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDE7F726700F0300678210 /* DetailsVC.swift */; };
+		E2CEA2B5266EE0AE004FAB96 /* AMToaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2B3266EE0AE004FAB96 /* AMToaster.swift */; };
+		E2CEA2B6266EE0AE004FAB96 /* AMToaster.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CEA2B4266EE0AE004FAB96 /* AMToaster.xib */; };
+		E2CEA2C1266EE0BD004FAB96 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2B8266EE0BD004FAB96 /* APIRequest.swift */; };
+		E2CEA2C2266EE0BD004FAB96 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2B9266EE0BD004FAB96 /* BaseRequest.swift */; };
+		E2CEA2C3266EE0BD004FAB96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2BB266EE0BD004FAB96 /* Extensions.swift */; };
+		E2CEA2C4266EE0BD004FAB96 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2BC266EE0BD004FAB96 /* Image.swift */; };
+		E2CEA2C6266EE0BD004FAB96 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2C0266EE0BD004FAB96 /* Urls.swift */; };
+		E2CEA2D1266EE168004FAB96 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2D0266EE168004FAB96 /* LoginVC.swift */; };
+		E2CEA2D3266EE1DD004FAB96 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2D2266EE1DD004FAB96 /* LoginPresenter.swift */; };
+		E2CEA2D5266EE4B1004FAB96 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2D4266EE4B1004FAB96 /* Helper.swift */; };
+		E2CEA2D7266EE4BA004FAB96 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2D6266EE4BA004FAB96 /* Validator.swift */; };
+		E2CEA2DE266EE56C004FAB96 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2DD266EE56C004FAB96 /* HomeVC.swift */; };
+		E2CEA2E1266EE58F004FAB96 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2DF266EE58F004FAB96 /* RecipeCell.swift */; };
+		E2CEA2E2266EE58F004FAB96 /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CEA2E0266EE58F004FAB96 /* RecipeCell.xib */; };
+		E2CEA2E4266EE68B004FAB96 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2E3266EE68B004FAB96 /* HomePresenter.swift */; };
+		E2CEA2E6266EE69C004FAB96 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2E5266EE69C004FAB96 /* RecipeModel.swift */; };
+		E2CEA2ED266EEE9B004FAB96 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2EB266EEE9B004FAB96 /* SettingCell.swift */; };
+		E2CEA2EE266EEE9B004FAB96 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CEA2EC266EEE9B004FAB96 /* SettingCell.xib */; };
+		E2CEA2F5266EEF4C004FAB96 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2F4266EEF4C004FAB96 /* SettingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0326FF4B0A87E5BD8528CD0C /* Pods-BrightskiesTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightskiesTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-BrightskiesTaskTests/Pods-BrightskiesTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		173CA99614D850E18D18D057 /* Pods-BrightskiesTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightskiesTask.release.xcconfig"; path = "Target Support Files/Pods-BrightskiesTask/Pods-BrightskiesTask.release.xcconfig"; sourceTree = "<group>"; };
+		3CE266234CA5D4C24C5C804E /* Pods-BrightskiesTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightskiesTaskTests.release.xcconfig"; path = "Target Support Files/Pods-BrightskiesTaskTests/Pods-BrightskiesTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		3ED95485E26E34049A952095 /* Pods_BrightskiesTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightskiesTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7F75B734613E370C84AFEB /* Pods_BrightskiesTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightskiesTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC2AE5E43E035C57DF32E82 /* Pods-BrightskiesTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightskiesTask.debug.xcconfig"; path = "Target Support Files/Pods-BrightskiesTask/Pods-BrightskiesTask.debug.xcconfig"; sourceTree = "<group>"; };
 		E24E84FC266EDFEB00BA5954 /* BrightskiesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightskiesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24E84FF266EDFEB00BA5954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E24E8501266EDFEB00BA5954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E24E8503266EDFEB00BA5954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E24E8506266EDFEB00BA5954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E24E8509266EDFEB00BA5954 /* BrightskiesTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrightskiesTask.xcdatamodel; sourceTree = "<group>"; };
 		E24E850B266EDFED00BA5954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +66,28 @@
 		E24E8515266EDFED00BA5954 /* BrightskiesTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightskiesTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24E8519266EDFED00BA5954 /* BrightskiesTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightskiesTaskTests.swift; sourceTree = "<group>"; };
 		E24E851B266EDFED00BA5954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28D39DB2673A33A00EB56E5 /* DataBaseManegar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManegar.swift; sourceTree = "<group>"; };
+		E28D39DD2673AAA400EB56E5 /* TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
+		E2BDE7F726700F0300678210 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		E2CEA2B3266EE0AE004FAB96 /* AMToaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMToaster.swift; sourceTree = "<group>"; };
+		E2CEA2B4266EE0AE004FAB96 /* AMToaster.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMToaster.xib; sourceTree = "<group>"; };
+		E2CEA2B8266EE0BD004FAB96 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		E2CEA2B9266EE0BD004FAB96 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		E2CEA2BB266EE0BD004FAB96 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2CEA2BC266EE0BD004FAB96 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E2CEA2C0266EE0BD004FAB96 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		E2CEA2D0266EE168004FAB96 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E2CEA2D2266EE1DD004FAB96 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		E2CEA2D4266EE4B1004FAB96 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E2CEA2D6266EE4BA004FAB96 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		E2CEA2DD266EE56C004FAB96 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E2CEA2DF266EE58F004FAB96 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		E2CEA2E0266EE58F004FAB96 /* RecipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
+		E2CEA2E3266EE68B004FAB96 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		E2CEA2E5266EE69C004FAB96 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		E2CEA2EB266EEE9B004FAB96 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		E2CEA2EC266EEE9B004FAB96 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		E2CEA2F4266EEF4C004FAB96 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A0E2F8A4F7D9E434CE7F23 /* Pods_BrightskiesTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +103,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DE0A7D3693E6E59C2A2581 /* Pods_BrightskiesTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76656A0228B367F3D92627B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C7F75B734613E370C84AFEB /* Pods_BrightskiesTask.framework */,
+				3ED95485E26E34049A952095 /* Pods_BrightskiesTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7669E7FB6848FAAC2E31B8B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2AE5E43E035C57DF32E82 /* Pods-BrightskiesTask.debug.xcconfig */,
+				173CA99614D850E18D18D057 /* Pods-BrightskiesTask.release.xcconfig */,
+				0326FF4B0A87E5BD8528CD0C /* Pods-BrightskiesTaskTests.debug.xcconfig */,
+				3CE266234CA5D4C24C5C804E /* Pods-BrightskiesTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E24E84F3266EDFEB00BA5954 = {
 			isa = PBXGroup;
 			children = (
 				E24E84FE266EDFEB00BA5954 /* BrightskiesTask */,
 				E24E8518266EDFED00BA5954 /* BrightskiesTaskTests */,
 				E24E84FD266EDFEB00BA5954 /* Products */,
+				7669E7FB6848FAAC2E31B8B6 /* Pods */,
+				76656A0228B367F3D92627B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +153,16 @@
 		E24E84FE266EDFEB00BA5954 /* BrightskiesTask */ = {
 			isa = PBXGroup;
 			children = (
-				E24E84FF266EDFEB00BA5954 /* AppDelegate.swift */,
-				E24E8501266EDFEB00BA5954 /* SceneDelegate.swift */,
-				E24E8503266EDFEB00BA5954 /* ViewController.swift */,
-				E24E8505266EDFEB00BA5954 /* Main.storyboard */,
-				E24E850B266EDFED00BA5954 /* Assets.xcassets */,
-				E24E850D266EDFED00BA5954 /* LaunchScreen.storyboard */,
+				E2CEA2C7266EE0C7004FAB96 /* Core */,
+				E2CEA2BE266EE0BD004FAB96 /* Base */,
+				E2CEA2BF266EE0BD004FAB96 /* Constants */,
+				E2CEA2B7266EE0BD004FAB96 /* Network */,
+				E2CEA2BA266EE0BD004FAB96 /* Utilites */,
+				E2CEA2B2266EE0AE004FAB96 /* Toaster */,
+				E2CEA2C9266EE0EA004FAB96 /* Stroyboards */,
+				E2CEA2C8266EE0D7004FAB96 /* Resources */,
+				E2A070352673D7E100A653EB /* CoreDataManager */,
+				E2CEA2CA266EE101004FAB96 /* Scenes */,
 				E24E8510266EDFED00BA5954 /* Info.plist */,
 				E24E8508266EDFEB00BA5954 /* BrightskiesTask.xcdatamodeld */,
 			);
@@ -102,6 +178,262 @@
 			path = BrightskiesTaskTests;
 			sourceTree = "<group>";
 		};
+		E2A070352673D7E100A653EB /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				E28D39DB2673A33A00EB56E5 /* DataBaseManegar.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		E2BDE7F426700EDC00678210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2BDE7F526700EE600678210 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDE7F726700F0300678210 /* DetailsVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2BDE7F626700EED00678210 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E2CEA2B2266EE0AE004FAB96 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2B3266EE0AE004FAB96 /* AMToaster.swift */,
+				E2CEA2B4266EE0AE004FAB96 /* AMToaster.xib */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		E2CEA2B7266EE0BD004FAB96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2B8266EE0BD004FAB96 /* APIRequest.swift */,
+				E2CEA2B9266EE0BD004FAB96 /* BaseRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E2CEA2BA266EE0BD004FAB96 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2D6266EE4BA004FAB96 /* Validator.swift */,
+				E2CEA2D4266EE4B1004FAB96 /* Helper.swift */,
+				E2CEA2BB266EE0BD004FAB96 /* Extensions.swift */,
+				E2CEA2BC266EE0BD004FAB96 /* Image.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		E2CEA2BE266EE0BD004FAB96 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E2CEA2BF266EE0BD004FAB96 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2C0266EE0BD004FAB96 /* Urls.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E2CEA2C7266EE0C7004FAB96 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E24E84FF266EDFEB00BA5954 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E2CEA2C8266EE0D7004FAB96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E24E850B266EDFED00BA5954 /* Assets.xcassets */,
+				E24E850D266EDFED00BA5954 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2CEA2C9266EE0EA004FAB96 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E24E8505266EDFEB00BA5954 /* Main.storyboard */,
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		E2CEA2CA266EE101004FAB96 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2F6266EF04A004FAB96 /* Deatils */,
+				E2CEA2E7266EED75004FAB96 /* Setting */,
+				E2CEA2D8266EE52A004FAB96 /* Home */,
+				E2CEA2CB266EE109004FAB96 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E2CEA2CB266EE109004FAB96 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2CE266EE12C004FAB96 /* Presenter */,
+				E2CEA2CD266EE128004FAB96 /* View */,
+				E2CEA2CC266EE10F004FAB96 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E2CEA2CC266EE10F004FAB96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2CEA2CD266EE128004FAB96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E28D39DD2673AAA400EB56E5 /* TabVC.swift */,
+				E2CEA2D0266EE168004FAB96 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2CEA2CE266EE12C004FAB96 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2D2266EE1DD004FAB96 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E2CEA2D8266EE52A004FAB96 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2DB266EE53F004FAB96 /* Presenter */,
+				E2CEA2DA266EE53A004FAB96 /* View */,
+				E2CEA2D9266EE534004FAB96 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2CEA2D9266EE534004FAB96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2E5266EE69C004FAB96 /* RecipeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2CEA2DA266EE53A004FAB96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2DC266EE556004FAB96 /* SubViews */,
+				E2CEA2DD266EE56C004FAB96 /* HomeVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2CEA2DB266EE53F004FAB96 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2E3266EE68B004FAB96 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E2CEA2DC266EE556004FAB96 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2F1266EEF0E004FAB96 /* RecipeCell */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		E2CEA2E7266EED75004FAB96 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2EA266EED8D004FAB96 /* Presenter */,
+				E2CEA2E9266EED86004FAB96 /* View */,
+				E2CEA2E8266EED7F004FAB96 /* Model */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		E2CEA2E8266EED7F004FAB96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2CEA2E9266EED86004FAB96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2EF266EEEF4004FAB96 /* SubViews */,
+				E2CEA2F4266EEF4C004FAB96 /* SettingVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2CEA2EA266EED8D004FAB96 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E2CEA2EF266EEEF4004FAB96 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2F0266EEEFE004FAB96 /* SettingCell */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		E2CEA2F0266EEEFE004FAB96 /* SettingCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2EB266EEE9B004FAB96 /* SettingCell.swift */,
+				E2CEA2EC266EEE9B004FAB96 /* SettingCell.xib */,
+			);
+			path = SettingCell;
+			sourceTree = "<group>";
+		};
+		E2CEA2F1266EEF0E004FAB96 /* RecipeCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2CEA2DF266EE58F004FAB96 /* RecipeCell.swift */,
+				E2CEA2E0266EE58F004FAB96 /* RecipeCell.xib */,
+			);
+			path = RecipeCell;
+			sourceTree = "<group>";
+		};
+		E2CEA2F6266EF04A004FAB96 /* Deatils */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDE7F626700EED00678210 /* Presenter */,
+				E2BDE7F526700EE600678210 /* View */,
+				E2BDE7F426700EDC00678210 /* Model */,
+			);
+			path = Deatils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +441,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E24E851E266EDFED00BA5954 /* Build configuration list for PBXNativeTarget "BrightskiesTask" */;
 			buildPhases = (
+				3F6449DC755FC602C5C3C694 /* [CP] Check Pods Manifest.lock */,
 				E24E84F8266EDFEB00BA5954 /* Sources */,
 				E24E84F9266EDFEB00BA5954 /* Frameworks */,
 				E24E84FA266EDFEB00BA5954 /* Resources */,
+				B5D5FE3477A0891DDC0F6338 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +460,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E24E8521266EDFED00BA5954 /* Build configuration list for PBXNativeTarget "BrightskiesTaskTests" */;
 			buildPhases = (
+				0A54C7D37AACA1B1FFB52F56 /* [CP] Check Pods Manifest.lock */,
 				E24E8511266EDFED00BA5954 /* Sources */,
 				E24E8512266EDFED00BA5954 /* Frameworks */,
 				E24E8513266EDFED00BA5954 /* Resources */,
@@ -185,6 +520,9 @@
 			files = (
 				E24E850F266EDFED00BA5954 /* LaunchScreen.storyboard in Resources */,
 				E24E850C266EDFED00BA5954 /* Assets.xcassets in Resources */,
+				E2CEA2E2266EE58F004FAB96 /* RecipeCell.xib in Resources */,
+				E2CEA2B6266EE0AE004FAB96 /* AMToaster.xib in Resources */,
+				E2CEA2EE266EEE9B004FAB96 /* SettingCell.xib in Resources */,
 				E24E8507266EDFEB00BA5954 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,15 +536,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A54C7D37AACA1B1FFB52F56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrightskiesTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6449DC755FC602C5C3C694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrightskiesTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D5FE3477A0891DDC0F6338 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrightskiesTask/Pods-BrightskiesTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrightskiesTask/Pods-BrightskiesTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrightskiesTask/Pods-BrightskiesTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E24E84F8266EDFEB00BA5954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E24E8504266EDFEB00BA5954 /* ViewController.swift in Sources */,
+				E28D39DC2673A33A00EB56E5 /* DataBaseManegar.swift in Sources */,
+				E2CEA2E1266EE58F004FAB96 /* RecipeCell.swift in Sources */,
+				E28D39DE2673AAA400EB56E5 /* TabVC.swift in Sources */,
+				E2CEA2E6266EE69C004FAB96 /* RecipeModel.swift in Sources */,
+				E2CEA2C4266EE0BD004FAB96 /* Image.swift in Sources */,
+				E2CEA2DE266EE56C004FAB96 /* HomeVC.swift in Sources */,
 				E24E8500266EDFEB00BA5954 /* AppDelegate.swift in Sources */,
+				E2CEA2C2266EE0BD004FAB96 /* BaseRequest.swift in Sources */,
+				E2CEA2F5266EEF4C004FAB96 /* SettingVC.swift in Sources */,
+				E2CEA2B5266EE0AE004FAB96 /* AMToaster.swift in Sources */,
+				E2CEA2D7266EE4BA004FAB96 /* Validator.swift in Sources */,
+				E2BDE7F826700F0300678210 /* DetailsVC.swift in Sources */,
+				E2CEA2ED266EEE9B004FAB96 /* SettingCell.swift in Sources */,
+				E2CEA2D3266EE1DD004FAB96 /* LoginPresenter.swift in Sources */,
+				E2CEA2D1266EE168004FAB96 /* LoginVC.swift in Sources */,
+				E2CEA2C1266EE0BD004FAB96 /* APIRequest.swift in Sources */,
 				E24E850A266EDFEB00BA5954 /* BrightskiesTask.xcdatamodeld in Sources */,
-				E24E8502266EDFEB00BA5954 /* SceneDelegate.swift in Sources */,
+				E2CEA2C3266EE0BD004FAB96 /* Extensions.swift in Sources */,
+				E2CEA2C6266EE0BD004FAB96 /* Urls.swift in Sources */,
+				E2CEA2D5266EE4B1004FAB96 /* Helper.swift in Sources */,
+				E2CEA2E4266EE68B004FAB96 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,11 +783,13 @@
 		};
 		E24E851F266EDFED00BA5954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC2AE5E43E035C57DF32E82 /* Pods-BrightskiesTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49S67L89RZ;
 				INFOPLIST_FILE = BrightskiesTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,17 +797,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Eramint.com.BrightskiesTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E24E8520266EDFED00BA5954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173CA99614D850E18D18D057 /* Pods-BrightskiesTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49S67L89RZ;
 				INFOPLIST_FILE = BrightskiesTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,12 +817,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Eramint.com.BrightskiesTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E24E8522266EDFED00BA5954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0326FF4B0A87E5BD8528CD0C /* Pods-BrightskiesTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +846,7 @@
 		};
 		E24E8523266EDFED00BA5954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE266234CA5D4C24C5C804E /* Pods-BrightskiesTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
