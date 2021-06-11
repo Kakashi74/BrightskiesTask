@@ -24,7 +24,6 @@
 		E2CEA2C2266EE0BD004FAB96 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2B9266EE0BD004FAB96 /* BaseRequest.swift */; };
 		E2CEA2C3266EE0BD004FAB96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2BB266EE0BD004FAB96 /* Extensions.swift */; };
 		E2CEA2C4266EE0BD004FAB96 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2BC266EE0BD004FAB96 /* Image.swift */; };
-		E2CEA2C6266EE0BD004FAB96 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2C0266EE0BD004FAB96 /* Urls.swift */; };
 		E2CEA2D1266EE168004FAB96 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2D0266EE168004FAB96 /* LoginVC.swift */; };
 		E2CEA2D3266EE1DD004FAB96 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2D2266EE1DD004FAB96 /* LoginPresenter.swift */; };
 		E2CEA2D5266EE4B1004FAB96 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2D4266EE4B1004FAB96 /* Helper.swift */; };
@@ -75,7 +74,6 @@
 		E2CEA2B9266EE0BD004FAB96 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 		E2CEA2BB266EE0BD004FAB96 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E2CEA2BC266EE0BD004FAB96 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		E2CEA2C0266EE0BD004FAB96 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		E2CEA2D0266EE168004FAB96 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E2CEA2D2266EE1DD004FAB96 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		E2CEA2D4266EE4B1004FAB96 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 			children = (
 				E2CEA2C7266EE0C7004FAB96 /* Core */,
 				E2CEA2BE266EE0BD004FAB96 /* Base */,
-				E2CEA2BF266EE0BD004FAB96 /* Constants */,
 				E2CEA2B7266EE0BD004FAB96 /* Network */,
 				E2CEA2BA266EE0BD004FAB96 /* Utilites */,
 				E2CEA2B2266EE0AE004FAB96 /* Toaster */,
@@ -242,14 +239,6 @@
 			children = (
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		E2CEA2BF266EE0BD004FAB96 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				E2CEA2C0266EE0BD004FAB96 /* Urls.swift */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		E2CEA2C7266EE0C7004FAB96 /* Core */ = {
@@ -623,7 +612,6 @@
 				E2CEA2C1266EE0BD004FAB96 /* APIRequest.swift in Sources */,
 				E24E850A266EDFEB00BA5954 /* BrightskiesTask.xcdatamodeld in Sources */,
 				E2CEA2C3266EE0BD004FAB96 /* Extensions.swift in Sources */,
-				E2CEA2C6266EE0BD004FAB96 /* Urls.swift in Sources */,
 				E2CEA2D5266EE4B1004FAB96 /* Helper.swift in Sources */,
 				E2CEA2E4266EE68B004FAB96 /* HomePresenter.swift in Sources */,
 			);
