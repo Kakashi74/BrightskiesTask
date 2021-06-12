@@ -47,6 +47,7 @@ class HomePresenter {
         let req = BaseRequest(path: path)
         APIRequest.shared.getAPIData(baseRequest: req, successBlock: { (data: [RecipeModelElement]) in
             self.recipes = data
+            print("Dataaaa ===> \(data)")
             self.view?.didGetRecipeSuccess()
         }) { (error) in
             self.view?.didGetrecipeFailed()

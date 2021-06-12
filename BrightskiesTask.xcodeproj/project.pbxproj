@@ -162,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				E2CEA2C7266EE0C7004FAB96 /* Core */,
-				E2CEA2BE266EE0BD004FAB96 /* Base */,
 				E23EE023267428CF00C590D5 /* Constants */,
 				E2CEA2B7266EE0BD004FAB96 /* Network */,
 				E2CEA2BA266EE0BD004FAB96 /* Utilites */,
@@ -194,26 +193,12 @@
 			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
-		E2BDE7F426700EDC00678210 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		E2BDE7F526700EE600678210 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				E2BDE7F726700F0300678210 /* DetailsVC.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		E2BDE7F626700EED00678210 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
 			sourceTree = "<group>";
 		};
 		E2CEA2B2266EE0AE004FAB96 /* Toaster */ = {
@@ -243,13 +228,6 @@
 				E2CEA2BC266EE0BD004FAB96 /* Image.swift */,
 			);
 			path = Utilites;
-			sourceTree = "<group>";
-		};
-		E2CEA2BE266EE0BD004FAB96 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		E2CEA2C7266EE0C7004FAB96 /* Core */ = {
@@ -368,18 +346,9 @@
 		E2CEA2E7266EED75004FAB96 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				E2CEA2EA266EED8D004FAB96 /* Presenter */,
 				E2CEA2E9266EED86004FAB96 /* View */,
-				E2CEA2E8266EED7F004FAB96 /* Model */,
 			);
 			path = Setting;
-			sourceTree = "<group>";
-		};
-		E2CEA2E8266EED7F004FAB96 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		E2CEA2E9266EED86004FAB96 /* View */ = {
@@ -389,13 +358,6 @@
 				E2CEA2F4266EEF4C004FAB96 /* SettingVC.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		E2CEA2EA266EED8D004FAB96 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
 			sourceTree = "<group>";
 		};
 		E2CEA2EF266EEEF4004FAB96 /* SubViews */ = {
@@ -427,9 +389,7 @@
 		E2CEA2F6266EF04A004FAB96 /* Deatils */ = {
 			isa = PBXGroup;
 			children = (
-				E2BDE7F626700EED00678210 /* Presenter */,
 				E2BDE7F526700EE600678210 /* View */,
-				E2BDE7F426700EDC00678210 /* Model */,
 			);
 			path = Deatils;
 			sourceTree = "<group>";

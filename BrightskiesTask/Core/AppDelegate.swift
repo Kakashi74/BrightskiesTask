@@ -4,7 +4,6 @@
 //
 //  Created by Ahmed on 6/8/21.
 //  Copyright © 2021 eramint.com. All rights reserved.
-//
 
 import UIKit
 import CoreData
