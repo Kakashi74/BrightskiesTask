@@ -14,7 +14,6 @@ class FavouritesVC: UIViewController {
             FavtblView.register(UINib(nibName: "SettingCell", bundle: nil), forCellReuseIdentifier: "SettingCell")
             FavtblView.delegate = self
             FavtblView.dataSource = self
-            FavtblView.separatorStyle = .none
         }
     }
     var favRecipe  = [Recipe](){
