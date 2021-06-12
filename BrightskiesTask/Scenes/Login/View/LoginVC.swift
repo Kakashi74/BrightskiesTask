@@ -44,6 +44,7 @@ class LoginVC: UIViewController {
             textField.shake()
             return
         }
+        
         presenter?.ValidateUser(email: emailTF.text!, pass: passwordTF.text!)
     }
     

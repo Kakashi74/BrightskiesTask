@@ -350,11 +350,11 @@
             </objects>
             <point key="canvasLocation" x="-202.89855072463769" y="-17.410714285714285"/>
         </scene>
-        <!--Setting-->
+        <!--Favourites-->
         <scene sceneID="VSe-L7-p8L">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sh2-i5-57o" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Setting" image="gear" catalog="system" id="0gE-1w-Rg6"/>
+                    <tabBarItem key="tabBarItem" title="Favourites" image="bookmark.fill" catalog="system" id="0gE-1w-Rg6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PJh-5K-x4U">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -371,7 +371,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gear" catalog="system" width="64" height="58"/>
+        <image name="bookmark.fill" catalog="system" width="56" height="64"/>
         <image name="house.fill" catalog="system" width="64" height="52"/>
         <image name="like" width="171" height="171"/>
         <image name="lockPass" width="14" height="11.5"/>
