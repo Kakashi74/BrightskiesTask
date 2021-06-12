@@ -36,7 +36,7 @@
 		E2CEA2E6266EE69C004FAB96 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2E5266EE69C004FAB96 /* RecipeModel.swift */; };
 		E2CEA2ED266EEE9B004FAB96 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2EB266EEE9B004FAB96 /* SettingCell.swift */; };
 		E2CEA2EE266EEE9B004FAB96 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CEA2EC266EEE9B004FAB96 /* SettingCell.xib */; };
-		E2CEA2F5266EEF4C004FAB96 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2F4266EEF4C004FAB96 /* SettingVC.swift */; };
+		E2CEA2F5266EEF4C004FAB96 /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CEA2F4266EEF4C004FAB96 /* FavouritesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,7 @@
 		E2CEA2E5266EE69C004FAB96 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		E2CEA2EB266EEE9B004FAB96 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		E2CEA2EC266EEE9B004FAB96 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
-		E2CEA2F4266EEF4C004FAB96 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		E2CEA2F4266EEF4C004FAB96 /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,7 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				E2CEA2EF266EEEF4004FAB96 /* SubViews */,
-				E2CEA2F4266EEF4C004FAB96 /* SettingVC.swift */,
+				E2CEA2F4266EEF4C004FAB96 /* FavouritesVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -573,7 +573,7 @@
 				E2CEA2DE266EE56C004FAB96 /* HomeVC.swift in Sources */,
 				E24E8500266EDFEB00BA5954 /* AppDelegate.swift in Sources */,
 				E2CEA2C2266EE0BD004FAB96 /* BaseRequest.swift in Sources */,
-				E2CEA2F5266EEF4C004FAB96 /* SettingVC.swift in Sources */,
+				E2CEA2F5266EEF4C004FAB96 /* FavouritesVC.swift in Sources */,
 				E2CEA2B5266EE0AE004FAB96 /* AMToaster.swift in Sources */,
 				E2CEA2D7266EE4BA004FAB96 /* Validator.swift in Sources */,
 				E2BDE7F826700F0300678210 /* DetailsVC.swift in Sources */,

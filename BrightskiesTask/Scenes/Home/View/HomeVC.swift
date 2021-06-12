@@ -23,7 +23,6 @@ class HomeVC: UIViewController {
         }
     }
     var presenter  = HomePresenter()
-   
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.attachView(view: self)

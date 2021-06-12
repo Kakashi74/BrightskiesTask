@@ -8,12 +8,13 @@
 
 import UIKit
 import CoreData
-class SettingVC: UIViewController {
+class FavouritesVC: UIViewController {
     @IBOutlet weak var FavtblView : UITableView! {
         didSet {
             FavtblView.register(UINib(nibName: "SettingCell", bundle: nil), forCellReuseIdentifier: "SettingCell")
             FavtblView.delegate = self
             FavtblView.dataSource = self
+            FavtblView.separatorStyle = .none
         }
     }
     var favRecipe  = [Recipe](){
@@ -31,7 +32,7 @@ class SettingVC: UIViewController {
     }
 }
 
-extension SettingVC : UITableViewDataSource , UITableViewDelegate {
+extension FavouritesVC : UITableViewDataSource , UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return favRecipe.count
     }
