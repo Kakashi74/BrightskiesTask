@@ -50,6 +50,7 @@ class HomePresenter {
             print("Dataaaa ===> \(data)")
             self.view?.didGetRecipeSuccess()
         }) { (error) in
+            print("Error Happened While Fetching Data")
             self.view?.didGetrecipeFailed()
         }
     }
